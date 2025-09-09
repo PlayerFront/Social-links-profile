@@ -1,0 +1,21 @@
+.social-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:var(--spacing-16px);
+}
+.social-link {
+    display: block;
+    text-align: center;
+    color: var(--font-color);
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--bg-link-color);
+    border-radius: var(--border-radius-link);
+    padding: var(--spacing-12px);
+    font-weight: var(--font-weight-bold)
+}
+.social-link:active {
+    background: var(--accent-color);
+    color: var(--bg-link-color);
+}

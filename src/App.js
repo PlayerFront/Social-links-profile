@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ProfileCard from './components/ProfileCard/ProfileCard';
 
 function App() {
+
+  const userData = {
+    name: "Jessica Randall",
+    location: "London, United Kingdom",
+    bio: "'Front-end developer and avid reader.'",
+    socialLinks: [
+      {name: "GitHub", url: "https://github.com"},
+      {name: "Frontend Mentor", url: "https://frontendmentor.io" },
+      {name: "LinkedIn", url: "https://linkedin.com"},
+      {name: "Twitter", url: "https://twitter.com"},
+      {name: "Instagram", url: "https://instagram.com"}
+    ]
+  };
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProfileCard userData={userData}/>
     </div>
   );
 }
