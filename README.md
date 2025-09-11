@@ -14,8 +14,7 @@ Frontend Mentor Challenge Solution
 - HTML5
 
 ## Live Demo
-[View Live]
+https://hilarious-mandazi-99265e.netlify.app/
 
-## Screenshots
-![Mobile]
-![Desktop]
+## 📸 Preview
+![Project Preview](/src/assets/images/destkop-design.jpg)
